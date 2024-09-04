@@ -1,0 +1,24 @@
+PS D:\プログラミング> cd "D:\プログラミング\練習用\侍教材用\git_challenge"
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git init
+Initialized empty Git repository in D:/プログラミング/練習用/侍教材用/git_challenge/.git/
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git add hello_world.txt
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git commit -m hello_world.txtを追加
+[main (root-commit) 97a84cc] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git add hello_world.txt
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git commit -m 日本語訳を追加       
+[main 707963e] 日本語訳を追加
+ 1 file changed, 1 insertion(+)
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git log
+commit 707963ed680850e657633173538174cb506f5f5c (HEAD -> main)
+Author: masa1228ew <masapapi@icloud.com>
+Date:   Wed Sep 4 20:04:37 2024 +0900
+
+    日本語訳を追加
+
+commit 97a84cc0062fb74504730082a257fef0fbfa8824
+Author: masa1228ew <masapapi@icloud.com>
+Date:   Wed Sep 4 20:03:58 2024 +0900
+
+    hello_world.txtを追加
