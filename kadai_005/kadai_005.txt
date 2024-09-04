@@ -1,2 +1,16 @@
+PS D:\プログラミング> cd  "D:\プログラミング\練習用\侍教材用\git_challenge" 
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git log
+fatal: your current branch 'main' does not have any commits yet
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git add hello_world.txt
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git commit -m hello_world.txtを追加
+[main (root-commit) 60b6cd2] hello_world.txtを追加
+ 2 files changed, 2 insertions(+)
+ create mode 100644 git_challenge/hello_world.txt
+ create mode 160000 kadai_005
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git add hello_world.txt
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git commit -m 日本語訳を追加       
+[main c465cf7] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS D:\プログラミング\練習用\侍教材用\git_challenge> git log --oneline
 c465cf7 (HEAD -> main) 日本語訳を追加
 60b6cd2 hello_world.txtを追加
